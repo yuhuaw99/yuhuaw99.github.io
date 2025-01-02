@@ -30,3 +30,5 @@ group :other_plugins do
     gem 'observer' # used by jekyll-scholar
     gem 'ostruct' # used by jekyll-twitter-plugin
 end
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform? 
